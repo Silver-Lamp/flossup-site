@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlossUp.io – Smart Floss Reminder</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-image {
+            background-size: cover;
+            background-position: center;
+            min-height: 60vh;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <section class="hero-image relative" style="background-image: url('assets/images/hero.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative container mx-auto px-4 py-32 text-center text-white">
+            <p class="text-xl mb-8">
+                A lot of joy can come from another 6 years with family and friends.
+            </p>
+            <h1 class="text-5xl font-bold mb-4">FlossUp</h1>
+            <p class="text-xl mb-8">The smart, pop-up floss box that builds lasting habits</p>
+            <a href="#pre-order" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full">
+                Pre-order Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Health Benefits -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <p class="max-w-3xl mx-auto text-lg text-teal-900 italic">
+                Regular flossing has been linked to longer life expectancy and lower risk of systemic disease. A study in the 
+                <a href="https://pubmed.ncbi.nlm.nih.gov/21748004/" target="_blank" class="text-teal-900 underline">Journal of Aging Research</a> 
+                found that those who flossed daily had a significantly lower risk of mortality. 
+                Other sources, including <em>Real Age</em> by Dr. Michael Roizen, estimate that consistent daily flossing can add up to 
+                <strong>6 years to your life</strong>.
+                <br><br>
+                Do it for someone you love. Do it for <span class="underline">your son, your partner, your future self</span>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Product Demo -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <img src="flossup-demo1.png" alt="FlossUp being pressed down" class="w-full rounded-lg shadow-lg">
+                <img src="flossup-popup.png" alt="FlossUp popped up with message" class="w-full rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- What's in the Box -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">What's in the Box?</h2>
+            <p class="max-w-2xl mx-auto text-lg text-center mb-12">
+                Every FlossUp package includes everything you need to start building a lasting habit from day one.
+            </p>
+            <div class="max-w-2xl mx-auto">
+                <ul class="space-y-4 text-lg">
+                    <li class="flex items-center">✔️ <span class="ml-2">1x FlossUp smart habit box (with pop-up action)</span></li>
+                    <li class="flex items-center">✔️ <span class="ml-2">1x USB-C charging cable</span></li>
+                    <li class="flex items-center">✔️ <span class="ml-2">1x Standard Oral-B floss insert (starter pack)</span></li>
+                    <li class="flex items-center">✔️ <span class="ml-2">Access to the FlossUp companion app (iOS & Android)</span></li>
+                    <li class="flex items-center">✔️ <span class="ml-2">Quick-start guide + flossing tips</span></li>
+                </ul>
+                <img src="flossup-unboxed.png" alt="Contents of the FlossUp box" class="mt-12 w-full rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications -->
+    <section class="py-20 bg-teal-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Technical Specifications</h2>
+            <p class="max-w-2xl mx-auto text-lg text-center mb-12">
+                Built to be smart, simple, and satisfying.
+            </p>
+            <div class="max-w-2xl mx-auto">
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
+                    <li class="flex items-center">📐 <span class="ml-2">Dimensions: 70mm x 70mm x 50mm</span></li>
+                    <li class="flex items-center">🔋 <span class="ml-2">Battery Life: Up to 30 days per charge</span></li>
+                    <li class="flex items-center">⚡ <span class="ml-2">Charging: USB-C (cable included)</span></li>
+                    <li class="flex items-center">📶 <span class="ml-2">Connectivity: Bluetooth Low Energy (BLE)</span></li>
+                    <li class="flex items-center">💾 <span class="ml-2">Display: 0.96" OLED screen (128x64)</span></li>
+                    <li class="flex items-center">🔧 <span class="ml-2">Mechanism: Spring-loaded lift with digital latch</span></li>
+                    <li class="flex items-center">🧠 <span class="ml-2">Processor: ESP32-based microcontroller</span></li>
+                    <li class="flex items-center">📱 <span class="ml-2">App Support: iOS + Android companion app</span></li>
+                    <li class="flex items-center">♻️ <span class="ml-2">Materials: Recycled ABS + rubberized top (planned)</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Do I need the app to use FlossUp?</h3>
+                    <p class="text-gray-700">Nope! The physical box works independently — the app is totally optional for tracking and reminders.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Will it work with my favorite floss?</h3>
+                    <p class="text-gray-700">Yes! FlossUp is designed to fit standard Oral-B refill containers, but most brands will work with slight adjustment.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">How does the pop-up mechanism work?</h3>
+                    <p class="text-gray-700">A spring-loaded lift is held down by a timed digital latch. After 24 hours, it releases and pops up with a message.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">How long does the battery last?</h3>
+                    <p class="text-gray-700">On a single charge, FlossUp lasts about 30 days with regular use.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Can I customize the pop-up messages?</h3>
+                    <p class="text-gray-700">Yes! With the app, you can add your own messages or even dedicate each press to someone you love.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Story -->
+    <section class="py-20 bg-teal-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">From App to Action: The FlossUp Story</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <p class="text-lg">
+                    In 2009, I created my first app — <strong>HabitForge</strong> — to build a simple daily flossing habit. Over 7 years, it became one of the top 10 habit-forming tools in the world.
+                </p>
+                <p class="text-lg">
+                    HabitForge helped users track over <strong>2 million successful habit days</strong> and was featured in <em>Forbes, Shape Magazine, Lifehacker, PC World, CNN Money</em>, and even <em>The 4-Hour Body</em> by Tim Ferriss.
+                </p>
+                <img src="assets/images/habitforge-success.jpg" alt="Media mentions for HabitForge" class="w-full rounded-lg shadow-lg my-8">
+                <p class="text-lg">
+                    But what I learned — and lived — is this: <strong>Apps aren't enough.</strong> We need physical, tangible reminders to make habits stick.
+                </p>
+                <p class="text-lg">
+                    As an older father, I want to be around for my kids — and their kids. Research shows that <strong>flossing daily can add up to 6 years to your life</strong>. That's 6 more years of bedtime stories, birthdays, and belly laughs.
+                </p>
+                <p class="text-lg">
+                    That's why I created <strong>FlossUp</strong>. It's not just a product. It's a promise — to my children, and maybe yours too.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kickstarter Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Help Launch FlossUp on Kickstarter</h2>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg text-center mb-6">
+                    Only 30% of adults floss daily — and many struggle to build long-term health habits. FlossUp is changing that, one pop at a time.
+                </p>
+                <p class="text-lg text-center mb-12">
+                    We're building the first tactile, message-based floss habit tool — powered by love, backed by science, and designed to last. Join our mission by backing the launch on Kickstarter.
+                </p>
+                <ul class="max-w-xl mx-auto space-y-4 mb-12">
+                    <li class="flex items-center">🎯 <span class="ml-2"><strong>Goal:</strong> $25,000 to fund initial production run</span></li>
+                    <li class="flex items-center">📦 <span class="ml-2"><strong>Reward Tiers:</strong> Early Bird, Duo Pack, Name a Message, and more</span></li>
+                    <li class="flex items-center">💡 <span class="ml-2"><strong>Stretch Goals:</strong> Custom colors, metal edition, message personalization</span></li>
+                </ul>
+                <div class="text-center">
+                    <a href="#" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors">
+                        View Kickstarter Preview
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-teal-50 py-12">
+        <div class="container mx-auto px-4">
+            <h3 class="text-xl font-bold text-center mb-8">Sources & References</h3>
+            <div class="max-w-2xl mx-auto text-teal-900 space-y-4">
+                <p>• Journal of Aging Research: <a href="https://pubmed.ncbi.nlm.nih.gov/21748004/" target="_blank" class="underline">Daily Flossing & Mortality Risk Study</a></p>
+                <p>• Dr. Michael Roizen's book: <em>Real Age</em> – Suggests up to 6 years added by daily flossing</p>
+                <p>• ADA Guidelines: Daily flossing recommended for oral and systemic health support</p>
+                <p class="mt-8 text-teal-700 text-center">This project is independently developed and not affiliated with the ADA or its partners.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
